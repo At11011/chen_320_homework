@@ -50,7 +50,7 @@ fprintf("\n")
 % Input parameters:
 % p = density (kg/m^3)
 % u = flow velocity (m/s)
-% mu = dynamic viscosity
+% mu = dynamic viscosity (N*s/m^2)
 % d = inner diameter (m)
 % 
 % Output:
