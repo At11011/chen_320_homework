@@ -8,5 +8,5 @@
 syms x;
 exp = x .^ 2 + 9 * x + 8;
 result = factor(exp);
-fprintf("Equation: %s\n", exp);
+fprintf("Expression: %s\n", exp);
 fprintf("Factor: %s\n", result);
