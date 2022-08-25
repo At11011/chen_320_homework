@@ -12,10 +12,17 @@ hold off
 %% Question 3 Enhanced Plot
 x = (0:0.01:pi);
 y = sin(x);
-plot(x, y, "-k");
+
+% Plot
 hold on
+plot(x, y, "-k");
+
+% Visual enhancements
+grid on
+xlim([0, pi]);
+ylim([0, 1.01]);
+
 title("Plot of sin(x), $0 < x < \pi$", "Interpreter", "latex");
 xlabel("x");
 ylabel("y");
-xlim([0, pi]);
-ylim([0, 1.01]);
+
